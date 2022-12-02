@@ -29,9 +29,7 @@ function myButtonClicked() {
   var finalPrice =
     coffeeSizePrice + extrasPrice + (0.13 * coffeeSizePrice + extrasPrice)
   var subtotal = coffeeSizePrice + extrasPrice
-  var subtotalDiscount =
-    coffeeSizePrice + extrasPrice - (0.25 * coffeeSizePrice + extrasPrice)
-
+  
   if (coffeeSizePrice + extrasPrice >= 3.5) {
     document.getElementById(
       "total-price"
