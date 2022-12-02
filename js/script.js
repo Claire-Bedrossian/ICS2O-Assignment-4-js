@@ -21,36 +21,14 @@ if (navigator.serviceWorker) {
 function myButtonClicked() {
   var coffeeSizePrice = parseFloat(document.getElementById("coffee-size").value)
   var extrasPrice = parseFloat(document.getElementById("extras").value)
-  var finalPriceDiscount =
-    coffeeSizePrice +
-    extrasPrice +
-    (0.13 * coffeeSizePrice + extrasPrice) -
-    (0.25 * coffeeSizePrice + extrasPrice)
-  var finalPrice =
-    coffeeSizePrice + extrasPrice + (0.13 * coffeeSizePrice + extrasPrice)
   var subtotal = coffeeSizePrice + extrasPrice
+  var finalPriceDiscount = subtotal + (0.13 * subtotal) - (0.25 * subtotal)
+  var finalPrice = subtotal + (0.13 * subtotal)
 
-  if (coffeeSizePrice + extrasPrice >= 3.5) {
-    document.getElementById(
-      "total-price"
-    ).innerHTML = `Coffee Type: $ ${coffeeSizePrice.toFixed(
-      2
-    )}</br>Extras: $ ${extrasPrice.toFixed(
-      2
-    )}</br>Your subtotal is: $ ${subtotal.toFixed(
-      2
-    )}</br>HST: 13% </br>Discount: 25% </br>Your final cost will be: $ ${finalPriceDiscount.toFixed(
-      2
-    )}`
+
+  if (subtotal >= 3.5) {
+    document.getElementById("total-price").innerHTML = `Coffee Type: $ ${coffeeSizePrice.toFixed(2)}</br>Extras: $ ${extrasPrice.toFixed(2)}</br>Your subtotal is: $ ${subtotal.toFixed(2)}</br>HST: 13% </br>Discount: 25% </br>Your final cost will be: $ ${finalPriceDiscount.toFixed(2)}`
   } else {
-    document.getElementById(
-      "total-price"
-    ).innerHTML = `Coffee Type: $ ${coffeeSizePrice.toFixed(
-      2
-    )}</br>Extras: $ ${extrasPrice.toFixed(
-      2
-    )}</br>Your subtotal is: $ ${subtotal.toFixed(
-      2
-    )}</br>HST: 13% </br>Your final cost will be: $ ${finalPrice.toFixed(2)}`
+    document.getElementById("total-price").innerHTML = `Coffee Type: $ ${coffeeSizePrice.toFixed(2)}</br>Extras: $ ${extrasPrice.toFixed(2)}</br>Your subtotal is: $ ${subtotal.toFixed(2)}</br>HST: 13% </br>Your final cost will be: $ ${finalPrice.toFixed(2)}`
   }
 }
