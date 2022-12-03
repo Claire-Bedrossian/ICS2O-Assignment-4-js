@@ -1,35 +1,66 @@
 <mxfile host="65bd71144e">
     <diagram id="GInHtZuMB5CcCfA9ihm7" name="Page-1">
-        <mxGraphModel dx="690" dy="543" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="986" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="7" style="edgeStyle=none;html=1;" edge="1" parent="1" source="2" target="3">
+                <mxCell id="39" style="edgeStyle=none;html=1;" edge="1" parent="1" source="40" target="42">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="2" value="Start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
-                    <mxGeometry x="300" y="260" width="100" height="60" as="geometry"/>
+                <mxCell id="40" value="Start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+                    <mxGeometry x="310" y="270" width="100" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="8" style="edgeStyle=none;html=1;" edge="1" parent="1" source="3" target="4">
+                <mxCell id="41" style="edgeStyle=none;html=1;" edge="1" parent="1" source="42">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="360" y="470" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="42" value="Input the coffee size and coffee type" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+                    <mxGeometry x="205" y="370" width="310" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="78" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="45" target="68">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="3" value="Input" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
-                    <mxGeometry x="300" y="360" width="100" height="60" as="geometry"/>
+                <mxCell id="45" value="&lt;span&gt;Your total is ____.&lt;/span&gt;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+                    <mxGeometry x="250" y="960" width="190" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="9" style="edgeStyle=none;html=1;" edge="1" parent="1" source="4" target="5">
+                <mxCell id="75" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="48" target="73">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="500.0000000000002" y="574.7142857142858" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="76" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="48" target="72">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="4" value="process" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-                    <mxGeometry x="300" y="460" width="100" height="100" as="geometry"/>
+                <mxCell id="48" value="if subtotal &amp;gt;= 3.50" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+                    <mxGeometry x="255" y="470" width="210" height="210" as="geometry"/>
                 </mxCell>
-                <mxCell id="10" style="edgeStyle=none;html=1;" edge="1" parent="1" source="5" target="6">
+                <mxCell id="49" value="&lt;span style=&quot;color: rgb(240 , 240 , 240) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(42 , 42 , 42) ; display: inline ; float: none&quot;&gt;No&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="370" y="720" width="20" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="55" value="&lt;span style=&quot;color: rgb(240 , 240 , 240) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(42 , 42 , 42) ; display: inline ; float: none&quot;&gt;Yes&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="480" y="535" width="20" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="79" style="edgeStyle=none;html=1;" edge="1" parent="1" source="62" target="68">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="5" value="Output" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
-                    <mxGeometry x="300" y="600" width="100" height="60" as="geometry"/>
+                <mxCell id="62" value="Your total is ____. *with 25% discount*" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+                    <mxGeometry x="487.5" y="770" width="305" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="6" value="Stop" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
-                    <mxGeometry x="300" y="700" width="100" height="60" as="geometry"/>
+                <mxCell id="68" value="Stop" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+                    <mxGeometry x="600" y="970" width="80" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="77" style="edgeStyle=none;html=1;entryX=0.583;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="72" target="45">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="72" value="subtotal + 0.13 * subtotal" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+                    <mxGeometry x="292.5" y="760" width="135" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="80" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="73" target="62">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="73" value="subtotal + 0.13 * subtotal - 0.25 * subtotal" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+                    <mxGeometry x="515" y="525" width="250" height="100" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
